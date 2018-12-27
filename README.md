@@ -4,7 +4,7 @@ This is Crazy 8 the card game. It’s meant to be played on terminal(for Linux) 
 How to compile:
 -	Go to command prompt/terminal
 -	Type: javac Card.java
--	javac abstractDeck.java
 -	javac Deck.java
+- javac abstractDeck.java
 -	javac crazy8.java
 -	java crazy8
