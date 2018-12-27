@@ -15,6 +15,7 @@ class crazy8 {
       }
       if(players < 2 || players > 6) {
         System.out.print("Please enter a valid number of players");
+        System.out.println("");
         players = 0;
       }
     }
@@ -61,7 +62,7 @@ class crazy8 {
         System.out.println("");
         System.out.println("");
         System.out.print("Game Over!!!!!!!!!");
-        System.out.print("The winner is player + " + player);
+        System.out.print("The winner is player " + (player+1));
         System.out.println("");
         System.out.println("");
         System.out.println("");
